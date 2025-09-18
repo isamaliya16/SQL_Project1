@@ -15,10 +15,10 @@ VALUES
 
 SELECT * FROM customer;
 
-UPDATE customer SET address='100 New Park Avenue, Surat' WHERE `customerID`=1;
+UPDATE customer SET address='100 New Park Avenue, Surat' WHERE customerID=1;
 SELECT * FROM customer;
 
-DELETE FROM customer WHERE `customerID`=6;
+DELETE FROM customer WHERE customerID=6;
 
 SELECT * FROM customer;
 
